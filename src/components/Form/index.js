@@ -14,6 +14,7 @@ function imcCalculator(){
     return setImc((weight/(height*height)).toFixed(2))
 }
 
+
 function validationImc(){
     if(weight != null && height != null){
         imcCalculator()
