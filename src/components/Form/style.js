@@ -4,12 +4,14 @@ const styles = StyleSheet.create({
     formContext: {
         width: "100%",
         height: "100%",
+        justifyContent: "space-around",
         bottom: 0,
         backgroundColor: "#ffffff",
         alignItems: "center",
         borderTopLeftRadius: 30,
         borderTopRightRadius: 30,
-        marginTop: 30,
+        marginTop: 20,
+        paddingTop: 15,
         
     },
     form:{
@@ -46,6 +48,12 @@ const styles = StyleSheet.create({
         fontSize: 20,
         color:'#ffffff',
     },
+    errorMessage:{
+        fontSize: 12,
+        color: "red",
+        fontWeight: "bold",
+        paddingLeft: 20,
+    }
 
 });
 
